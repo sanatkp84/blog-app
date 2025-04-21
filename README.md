@@ -55,8 +55,8 @@ docker-compose up
 ```
 
 The application will be available at:
-- Frontend: http://localhost:3000
-- Backend API: http://localhost:5000
+- Frontend: http://localhost:8080
+- Backend API: http://localhost:5050
 
 ### Local Development
 
@@ -74,7 +74,7 @@ npm install
 
 3. Create a `.env` file with the following content:
 ```
-PORT=5000
+PORT=5050
 MONGODB_URI=mongodb://localhost:27017/vlogapp
 NODE_ENV=development
 ```
@@ -98,7 +98,7 @@ npm install
 
 3. Create a `.env` file with the following content:
 ```
-REACT_APP_API_URL=http://localhost:5000/api
+REACT_APP_API_URL=http://localhost:5050/api
 ```
 
 4. Start the frontend development server:
@@ -106,7 +106,7 @@ REACT_APP_API_URL=http://localhost:5000/api
 npm start
 ```
 
-The frontend will be available at http://localhost:3000.
+The frontend will be available at http://localhost:8080.
 
 ## API Endpoints
 
