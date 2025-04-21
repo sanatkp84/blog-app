@@ -1,0 +1,23 @@
+# Dependencies
+   node_modules/
+   
+   # Environment variables
+   .env
+   
+   # Build files
+   build/
+   dist/
+   
+   # Logs
+   logs/
+   *.log
+   
+   # Docker volumes
+   mongodb_data/
+   
+   # OS files
+   .DS_Store
+Docker.dmg
+frontend/node_modules/
+backend/node_modules/
+*.pack
